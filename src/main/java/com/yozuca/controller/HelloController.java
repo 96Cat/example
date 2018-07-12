@@ -9,7 +9,7 @@ public class HelloController {
 
 	@GetMapping("/hello")
 	public ResponseEntity<Object> hello(){
-		return ResponseEntity.ok("Hello WebHook!!!");
+		return ResponseEntity.ok("Hello WebHook");
 	}
 	
 }
